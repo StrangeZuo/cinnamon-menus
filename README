@@ -1,0 +1,48 @@
+cinnamon-menus
+===========
+
+cinnamon-menus contains the libcinnamon-menu library, the layout configuration
+files for the Cinnamon menu, as well as a simple menu editor.
+
+The libcinnamon-menu library implements the "Desktop Menu Specification"
+from freedesktop.org:
+
+  http://freedesktop.org/wiki/Specifications/menu-spec
+  http://specifications.freedesktop.org/menu-spec/menu-spec-latest.html
+
+You may download updates to the package from:
+
+   https://github.com/linuxmint/cinnamon-menus/releases
+
+
+Installation
+============
+
+1) Run meson with options you like. The following configuration installs
+   all binaries, libs, and shared files into /usr/local, and enables all
+   available options:
+
+    meson debian/build \
+        --prefix=/usr/local \
+        --buildtype=plain \
+        -D deprecated_warnings=false
+
+2) Compile and install (sudo is needed for install)
+
+    ninja -C debian/build
+    ninja -C debian/build install
+
+3) You can uninstall the installed files with
+
+    ninja -C debian/build uninstall
+
+
+How to report bugs
+==================
+
+Bugs should be reported to the Cinnamon bug tracking system:
+
+   https://github.com/linuxmint/cinnamon-menus/issues
+
+You will need to create an account for yourself.
+
