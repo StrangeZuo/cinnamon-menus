@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4.2.0 amd64
 libcinnamon-menu-3.so.0 libcinnamon-menu-3-0 #MINVER#
+* Build-Depends-Package: libcinnamon-menu-3-dev
  _entry_directory_list_compare@Base 4.2.0
  _entry_directory_list_empty_desktop_cache@Base 4.2.0
  _entry_directory_list_get_all_desktops@Base 4.2.0

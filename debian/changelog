@@ -1,3 +1,77 @@
+cinnamon-menus (6.2.0-1) unstable; urgency=medium
+
+  * New upstream version 6.2.0
+  * Update standards version to 4.7.0, no changes needed
+
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Sun, 07 Jul 2024 14:01:00 +0200
+
+cinnamon-menus (6.0.0-1) unstable; urgency=medium
+
+  [ Fabio Fantoni ]
+  * New upstream version 6.0.0
+  * d/control: add Multi-Arch: same to gir1.2-cmenu-3.0
+
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Sat, 25 Nov 2023 14:22:22 +0100
+
+cinnamon-menus (5.8.0-1) unstable; urgency=medium
+
+  [ Joshua Peisach ]
+  * New upstream version 5.8.0
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libcinnamon-menu-3-0: Add Multi-Arch: same.
+
+  [ Fabio Fantoni ]
+  * Update standards version to 4.6.2, no changes needed
+
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Wed, 12 Jul 2023 14:57:55 +0200
+
+cinnamon-menus (5.6.0-1) unstable; urgency=medium
+
+  [ Joshua Peisach ]
+  * New upstream version 5.6.0
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster
+
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Tue, 15 Nov 2022 20:48:34 +0100
+
+cinnamon-menus (5.4.0-1) unstable; urgency=medium
+
+  [ Joshua Peisach ]
+  * New upstream version 5.4.0
+  * Simplify watch file
+  * Fix whitespace
+
+  [ Fabio Fantoni ]
+  * d/control: improve short description of libcinnamon-menu-3-dev
+
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Fri, 01 Jul 2022 14:17:13 +0200
+
+cinnamon-menus (5.2.0-2) unstable; urgency=medium
+
+  * add myself to uploaders
+  * prepare unstable release
+
+ -- Christoph Martin <martin@uni-mainz.de>  Tue, 25 Jan 2022 13:46:05 +0100
+
+cinnamon-menus (5.2.0-1) experimental; urgency=medium
+
+  [ Joshua Peisach ]
+  * New upstream version 5.2.0
+  * Add myself as uploader, bump version dependencies to cinnamon 5.2.0x
+  * Bump standards-version to 4.6.0.1 - add rules-requires-root field
+  * Symbols: Add missing Build-Depends-Package field
+  * Remove useless --as-needed linker flag and dh_auto_clean override
+
+  [ Fabio Fantoni ]
+  * d/rules:
+    - fail on missing as default
+    - hardening from bindnow to all
+  * Add dh-sequence-gir to build-deps
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Thu, 18 Nov 2021 16:04:40 -0500
+
 cinnamon-menus (5.0.0-2) unstable; urgency=medium
 
   * Release to unstable.
